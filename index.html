@@ -9,62 +9,60 @@
 <body>
   <h1 id="title">Pizza</title>
     <p id="description">a new pizza business is being developed</p>
-
-    <form id="survey-form">
-
-      <fieldset>
-        <div>
-          <label id="name-label">Name
-            <br>
-            <input id="name" type="text" required placeholder="Enter your name"></label>
-          <label id="email-label">Email
-            <br>
-            <input id="email" type="email" required placeholder="enter your email">
-            <label id="number-label">bussines location
+    <div class="container-form">
+      <form id="survey-form">
+        <fieldset>
+          <div>
+            <label id="name-label">Name
               <br>
-              <input id="number" type="number" min="13" max="120" placeholder="bussines location">
-      </fieldset>
+              <input id="name" type="text" required placeholder="Enter your name"></label>
+            <label id="email-label">Email
+              <br>
+              <input id="email" type="email" required placeholder="enter your email">
+              <label id="number-label">bussines location
+                <br>
+                <input id="number" type="number" min="13" max="120" placeholder="bussines location">
+        </fieldset>
 
-      <fieldset>
-        <label for="dropdown">current role
-          <br>
-          <select id="dropdown"></label>
-        <option>Select Current Role</option>
-        <option>Employed</option <option>change</option>
-        <option>Learning data</option>
-        <option>pizza type</option>
-        </select>
-      </fieldset>
+        <fieldset>
+          <label for="dropdown">current role
+            <br>
+            <select id="dropdown"></label>
+          <option>Select Current Role</option>
+          <option>Employed</option <option>change</option>
+          <option>Learning data</option>
+          <option>pizza type</option>
+          </select>
+        </fieldset>
 
-      <fieldset>
-        <label>what you like to see more bussines</label>
-        
-        <label for="FCC">pizza bussines
-          
-          <input type="checkbox" value="1"></label>
+        <fieldset>
+          <label>what you like to see more bussines</label>
 
-        <label for="Top">Pizza recipes<input type="checkbox" value="2"></label>
+          <label for="FCC"><input type="checkbox" value="1">pizza bussines</label>
 
-        <label for="codecademy">pizza exotic<input type="checkbox" value="3"></label>
+          <label for="Top"><input type="checkbox" value="2">Pizza recipes</label>
 
-        <label for="coddy">coddy<input type="checkbox" value="4"></label>
-      </fieldset>
+          <label for="codecademy"><input type="checkbox" value="3">pizza exotic</label>
 
-      <fieldset>
-        <label for="Yes"><input type="radio" value="yes" name="recommend">yes</label>
-        <label for="NO"><Input type="radio" value="no" name="recommend">No</label>
+          <label for="coddy"><input type="checkbox" value="4">coddy</label>
+        </fieldset>
 
-      </fieldset>
+        <fieldset>
+          <label for="Yes"><input type="radio" value="yes" name="recommend">yes</label>
+          <label for="NO"><Input type="radio" value="no" name="recommend">No</label>
+
+        </fieldset>
 
 
-      <fieldset>
-      <textarea placeholder="Enter your suggestions here..."></textarea>
+        <fieldset>
+          <textarea placeholder="Enter your suggestions here..."></textarea>
 
-      <button id="submit">Submit</button>
+          <button id="submit">Submit</button>
 
-      </div>
-      </fieldset>
+    </div>
+    </fieldset>
     </form>
+    </div>
 
 </body>
 <html>
